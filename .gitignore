@@ -1,7 +1,14 @@
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
 dist/
 build/
-.pytest_cache/
+*.mp4
+*.png
+*.jpg
+*.webp
+.DS_Store
+Thumbs.db
