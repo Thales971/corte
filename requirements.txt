@@ -5,3 +5,4 @@ numpy>=1.26.0
 opencv-python-headless>=4.9.0
 pytesseract>=0.3.13
 pyperclip>=1.8.2
+pytest>=8.0.0
