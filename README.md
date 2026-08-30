@@ -43,7 +43,7 @@ Não é OBS. Não é Photoshop. É a ferramenta que você abre em 1 segundo quan
 5. **Moldura** se for mandar pra alguém. **Copiar** cola a imagem direto.
 6. **O** lê o texto da última imagem. **G** grava. **?** abre este guia no painel.
 
-Arquivos vão para `%USERPROFILE%\Pictures\CORTE`.
+Arquivos vão para `%USERPROFILE%\\Pictures\\CORTE`.
 
 Guia completo: [TUTORIAL.md](TUTORIAL.md).
 
@@ -102,7 +102,7 @@ Guia completo: [TUTORIAL.md](TUTORIAL.md).
 git clone https://github.com/Thales971/corte.git
 cd corte
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m corte
 ```
@@ -129,7 +129,7 @@ python -m corte tutorial
 
 ## Settings
 
-Na primeira saída o CORTE grava `Pictures\CORTE\corte.settings.json`:
+Na primeira saída o CORTE grava `Pictures\\CORTE\\corte.settings.json`:
 
 ```json
 {
